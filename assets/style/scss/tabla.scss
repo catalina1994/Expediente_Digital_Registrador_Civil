@@ -1,0 +1,32 @@
+.table{
+    background-color:#fff;
+    &>thead{
+        background-color:#E5E5E5;
+        font-size:12px;
+    }
+    i.fa{
+        color:#686666;
+    }
+    .btn{
+        i.fa{
+            color:#fff;
+        }
+    }
+    &-transparent{
+        &.table>:not(caption)>*>*{
+            padding: 0.5rem 0.3rem 0.1rem;
+            border-bottom-width: 0px;
+            
+        }
+        .form-check{
+            text-align:center;
+            margin-top:.3em;
+        }
+        .form-check-input{
+            float:none;
+            
+        }
+        
+    }
+
+}

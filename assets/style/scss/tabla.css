@@ -1,0 +1,31 @@
+.table {
+  background-color: #fff;
+}
+
+.table > thead {
+  background-color: #E5E5E5;
+  font-size: 12px;
+}
+
+.table i.fa {
+  color: #686666;
+}
+
+.table .btn i.fa {
+  color: #fff;
+}
+
+.table-transparent.table > :not(caption) > * > * {
+  padding: 0.5rem 0.3rem 0.1rem;
+  border-bottom-width: 0px;
+}
+
+.table-transparent .form-check {
+  text-align: center;
+  margin-top: .3em;
+}
+
+.table-transparent .form-check-input {
+  float: none;
+}
+/*# sourceMappingURL=tabla.css.map */

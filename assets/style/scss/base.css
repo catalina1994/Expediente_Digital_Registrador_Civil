@@ -1,0 +1,276 @@
+html {
+  height: 100%;
+  font-size: 14px;
+  color: #141414;
+}
+
+@media screen and (min-width: 600px) {
+  html html {
+    font-size: 16px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+code {
+  word-break: break-all;
+}
+
+.login-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 769px) {
+  .login-logos {
+    padding: 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+.login-logos img {
+  margin: 0;
+}
+
+.login-logos .login-logo {
+  display: block;
+  height: 5em;
+  width: 170px;
+}
+
+.av-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.layout-int {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.system_header {
+  background-color: #fff;
+  padding: .3em 0;
+}
+
+.system_header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .system_header .container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.system_header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.system-logo {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .system-logo {
+    display: block;
+    height: 4em;
+    width: 160px;
+    padding-right: 1em;
+    border-right: 1px solid #efefef;
+    margin-right: 1em;
+  }
+}
+
+.system-title {
+  color: #00335E;
+  line-height: 1;
+  padding: .5em 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .system-title {
+    padding: 0;
+    text-align: left;
+  }
+}
+
+.system-title h1 {
+  font-size: 24px;
+  margin: 0;
+  line-height: 1;
+  font-family: "Roboto-Bold", "Roboto-Regular", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.system-title p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.logo-second {
+  display: none;
+  padding-right: 1em;
+  border-right: 1px solid #cfcfcf;
+}
+
+@media screen and (min-width: 769px) {
+  .logo-second {
+    display: block;
+  }
+}
+
+.system-menu {
+  background-color: #00335E;
+}
+
+.navbar {
+  padding: .5rem 0;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav .nav-item:last-child {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  /*color: #fff;*/
+}
+
+.d-user {
+  color: #707070;
+}
+
+.d-user p {
+  margin: 0;
+}
+
+.d-user .fa-user {
+  font-size: 1.7em;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: #9e9e9e;
+}
+
+.av-main {
+  background: linear-gradient(294.09deg, #00335E 49.14%, #075088 87.4%, #0D6AAE 108.27%);
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.system-main {
+  padding: 1em 0;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  background-color: #F6F6F6;
+}
+
+.mobil-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  -webkit-box-shadow: 2px -1px 5px #ccced0;
+          box-shadow: 2px -1px 5px #ccced0;
+  padding: .5em 0;
+}
+
+@media screen and (min-width: 600px) {
+  .mobil-logos {
+    display: none;
+  }
+}
+
+.av-footer {
+  background-color: #00335E;
+  padding-top: .5em;
+}
+
+.av-footer p {
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Roboto-Light", "Roboto-Regular", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .av-footer {
+    padding-top: 0;
+  }
+}
+/*# sourceMappingURL=base.css.map */

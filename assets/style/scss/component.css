@@ -1,0 +1,271 @@
+.av-login-card {
+  background-color: #fff;
+  padding: 3em 0 2em;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 3em;
+  margin-top: 90px;
+  position: relative;
+  -webkit-box-shadow: 2px 2px 3px rgba(65, 64, 64, 0.295);
+          box-shadow: 2px 2px 3px rgba(65, 64, 64, 0.295);
+}
+
+.av-login-card form {
+  margin: 0 1.5em;
+}
+
+@media screen and (min-width: 576px) {
+  .av-login-card form {
+    padding: 0 .5em;
+  }
+}
+
+.av-login-card-title {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto-Bold", "Roboto-Regular", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #EA5932;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 576px) {
+  .av-login-card {
+    margin: 5em 0;
+    padding: 3.5em 0 1.3em;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .av-login-card {
+    margin: 6em 2em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .av-login-card {
+    width: 330px;
+    margin: 7em 5em;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  .av-login-card {
+    width: 400px;
+    margin: 8em 5em 10em;
+  }
+}
+
+.av-login-card .av-login-icon {
+  margin-bottom: 1em;
+  padding: 2em;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  right: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 3px rgba(65, 64, 64, 0.295);
+          box-shadow: 2px 2px 3px rgba(65, 64, 64, 0.295);
+  top: -70px;
+}
+
+@media screen and (min-width: 769px) {
+  .av-login-card .av-login-icon {
+    right: 110px;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  .av-login-card .av-login-icon {
+    right: 145px;
+  }
+}
+
+.av-login-card .av-login-icon i {
+  color: #D2D3D6;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #EA5932;
+  border-color: #EA5932;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active {
+  color: #fff;
+  border-color: #EA5932;
+  background-color: #e84a1f;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  border-color: #EA5932;
+  background-color: #e84a1f;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(234, 89, 50, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(234, 89, 50, 0.5);
+}
+
+.btn-primary.d-lineal {
+  color: #EA5932;
+  background-color: #fff;
+  border-color: #EA5932;
+}
+
+.btn-primary.d-lineal:hover, .btn-primary.d-lineal:active, .btn-primary.d-lineal.active {
+  color: #fff;
+  border-color: #EA5932;
+  background-color: #e84a1f;
+}
+
+.btn-primary.d-lineal:focus {
+  color: #fff;
+  border-color: #EA5932;
+  background-color: #e84a1f;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(234, 89, 50, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(234, 89, 50, 0.5);
+}
+
+.d-link-cyan {
+  color: #0d6efd;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 769px) {
+  .link {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+.link-principal {
+  color: #ffffff;
+}
+
+.link-principal::after {
+  content: "|";
+  margin: 0 1em;
+}
+
+.link-principal:hover {
+  color: #ffffff;
+}
+
+.link-secondary {
+  font-size: 20px;
+  color: #EA5932;
+}
+
+.link-secondary:hover {
+  text-decoration: none;
+  color: #EA5932;
+}
+
+.banner-title {
+  background-color: #707070;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: .5em;
+  -webkit-box-shadow: 2px 2px 3px rgba(87, 86, 86, 0.2);
+          box-shadow: 2px 2px 3px rgba(87, 86, 86, 0.2);
+}
+
+.banner-title h5 {
+  margin: 0;
+}
+
+.banner-title a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+.banner-title a:hover {
+  text-decoration: none;
+}
+
+.d-browser {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.d-browser .icon-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.d-browser .svg-icon.medium {
+  height: 2em;
+  width: 2em;
+}
+
+.d-browser .icon-browser {
+  margin-left: -3px;
+  opacity: .7;
+  font-size: 12px;
+}
+
+.header_table {
+  background-color: rgba(163, 163, 163, 0.71);
+}
+
+.pag-error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-body h5 {
+  font-size: 16px;
+  font-family: "Roboto-Bold", "Roboto-Regular", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 576px) {
+  #passModal .modal-dialog {
+    max-width: 350px;
+  }
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #D2D3D6;
+}
+/*# sourceMappingURL=component.css.map */

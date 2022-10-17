@@ -1,0 +1,42 @@
+.form-label {
+    margin-bottom: 0.1rem;
+    color: #686666;
+    font-size:12px;
+}
+
+/*input-file*/
+
+.file-upload .file-upload-select {
+    display: flex;
+    color: #686666;
+    cursor: pointer;
+    text-align: left;
+    background: #ffffff;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    height: 33.5px;
+    justify-content: space-between;
+}
+.file-upload .file-upload-select .file-select-button {
+	background: #E5E5E5;
+	padding: 5px 10px;
+
+	display: inline-block;
+}
+.file-upload .file-upload-select .file-select-name {
+	display: inline-block;
+	padding: 5px 10px;
+}
+.file-upload .file-upload-select:hover .file-select-button {
+	background: #C1C1C1;
+	color: #686666;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+.file-upload .file-upload-select input[type="file"] {
+	display: none;
+}

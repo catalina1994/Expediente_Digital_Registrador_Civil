@@ -1,0 +1,29 @@
+@import "scss/variables.scss";
+@import "scss/reset.scss";
+@import "scss/mixin.scss";
+@import "scss/fonts.scss";
+@import "scss/base.scss";
+@import "scss/component.scss";
+@import "scss/tabla.scss";
+@import "scss/cards.scss";
+@import "scss/forms.scss";
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:  $font_text;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p{
+  font-size: 16px;
+}

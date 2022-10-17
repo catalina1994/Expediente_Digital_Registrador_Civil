@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../font/roboto/Roboto-Light.woff") format("woff"), url("../font/roboto/Roboto-Light.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-medium";
+  src: url("../font/roboto/Roboto-Medium.woff");
+  src: url("../font/roboto/Roboto-Medium.woff") format("woff"), url("../font/roboto/Roboto-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-regular";
+  src: url("../font/roboto/Roboto-Regular.woff");
+  src: url("../font/roboto/Roboto-Regular.woff") format("woff"), url("../font/roboto/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-principal {
+  color: #ffffff;
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .text-principal {
+    display: block;
+    text-align: left;
+  }
+}
+
+.title-principal {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+  .title-principal {
+    text-align: left;
+    font-size: 38px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title-principal {
+    font-size: 45px;
+    margin-bottom: .5em;
+  }
+}
+/*# sourceMappingURL=fonts.css.map */
